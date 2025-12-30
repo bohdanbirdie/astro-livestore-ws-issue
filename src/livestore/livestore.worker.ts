@@ -7,7 +7,7 @@ makeWorker({
   schema,
   sync: {
     backend: makeWsSync({
-      url: `${import.meta.env.PUBLIC_LIKES_SYNC_URL}/sync`,
+      url: `http://localhost:8788/sync`,
     }),
     initialSyncOptions: { _tag: "Blocking", timeout: 5000 },
   },
