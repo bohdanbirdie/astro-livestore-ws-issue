@@ -4,11 +4,29 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "dev:cf": "wrangler dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.16.6"
+    "@astrojs/react": "4.4.2",
+    "@livestore/adapter-web": "0.4.0-dev.22",
+    "@livestore/common": "0.4.0-dev.22",
+    "@livestore/livestore": "0.4.0-dev.22",
+    "@livestore/peer-deps": "0.4.0-dev.22",
+    "@livestore/devtools-vite": "0.4.0-dev.22",
+    "@livestore/react": "0.4.0-dev.22",
+    "@livestore/sync-cf": "0.4.0-dev.22",
+    "@livestore/utils": "0.4.0-dev.22",
+    "@livestore/wa-sqlite": "0.4.0-dev.22",
+    "@tailwindcss/vite": "4.1.18",
+    "astro": "^5.16.6",
+    "lucide-react": "0.562.0",
+    "react-error-boundary": "6.0.1",
+    "tailwind-merge": "3.4.0",
+    "@livestore/adapter-cloudflare": "0.4.0-dev.22",
+    "@cloudflare/workers-types": "4.20251118.0",
+    "wrangler": "^4.42.2"
   }
 }
